@@ -12,5 +12,5 @@ else if(isNaN(myName) && !myName.includes("Davide", "Marco", "Francis", "Trevor"
     document.getElementById("sorry").innerHTML = "Unfortunately you are not on the list!";
 }
 else {
-    document.getElementById("error").innerHTML = "Error, insert your name please!";
+    document.getElementById("error").innerHTML = "Error: insert your name please!";
 }

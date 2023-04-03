@@ -17,5 +17,5 @@ if(!isNaN(number1) && !isNaN(number2)){
     }
 } 
 else {
-    console.log("Insert two numbers!");
+    console.log("Error: insert two numbers!");
 }

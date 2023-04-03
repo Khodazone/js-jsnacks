@@ -1,6 +1,6 @@
 // L’utente inserisce due numeri in successione, con due prompt
-let number1 = prompt("Choose the first number: ");
-let number2 = prompt("Choose the second number: ");
+let number1 = prompt("Choose the first number:");
+let number2 = prompt("Choose the second number:");
 
 // Il software sceglie e stampa il maggiore
 if(!isNaN(number1) && !isNaN(number2)){

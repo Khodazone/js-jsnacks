@@ -1,15 +1,14 @@
 // Chiedere all'utente 10 numeri diversi
 let number = prompt("Insert a number!")
 
-
 if(!isNaN(number)){
-for (let number = 0; number < 9; number++) {
-    console.log("Walking east one step");
+for (let i = 0; i < 10; i++) {
+    console.log(i);
   }
 }
 else {
     console.log("Error")
-    document.getElementById("error").innerHTML = "Please, use only numbers!";
+    document.getElementById("error").innerHTML = "Please, only use numbers!";
 }
 
 // Sommare i numeri ottenuti

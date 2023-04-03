@@ -1,5 +1,5 @@
 // Chiedere al computer un numero casuale compreso fra 0 e 10
-let randomNumberGenerated = Math.floor(Math.random() * 9) + 1;
+let randomNumberGenerated = Math.floor(Math.random() * 10) + 1;
 console.log("This is the random number generated: " + randomNumberGenerated);
 
 // Chiedere di inserire un numero e dichiarare se il numero scelto dall'utente è uguale a quello del PC

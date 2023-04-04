@@ -1,14 +1,12 @@
-// Chiedere all'utente 10 numeri diversi
-let number = prompt("Insert a number!")
+// Chiedere all'utente 10 numeri diversi e sommare
+let sum = 0
 
-if(!isNaN(number)){
 for (let i = 0; i < 10; i++) {
-    console.log(i);
-  }
-}
-else {
-    console.log("Error")
-    document.getElementById("error").innerHTML = "Please, only use numbers!";
-}
+    let number = prompt("Choose a number");
+    let num = parseInt(number);
 
-// Sommare i numeri ottenuti
+    // += equivalente a fare variabile = variabile + num
+    sum += num;
+  }
+
+console.log(sum);

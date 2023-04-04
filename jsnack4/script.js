@@ -1,5 +1,5 @@
 // Chiedi all’utente il suo nome
-let myName = prompt("What's your name?")
+/*let myName = prompt("What's your name?")
 let guestList = ["Davide", "Marco", "Francis", "Trevor", "Michael"];
 
 // Comunica se l'utente può partecipare o no alla festa
@@ -14,3 +14,4 @@ else if(isNaN(myName) && !myName.includes("Davide", "Marco", "Francis", "Trevor"
 else {
     document.getElementById("error").innerHTML = "Error: insert your name please!";
 }
+*/

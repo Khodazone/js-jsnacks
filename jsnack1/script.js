@@ -2,6 +2,11 @@
 let number1 = prompt("Choose the first number:");
 let number2 = prompt("Choose the second number:");
 
+// Conversione in numeri
+number1 = parseInt(number1);
+number2 = parseInt(number2);
+
+
 // Il software sceglie e stampa il maggiore
 if(!isNaN(number1) && !isNaN(number2)){
     if (number1 < number2){
